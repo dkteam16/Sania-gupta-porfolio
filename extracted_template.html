@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="74b80daa-1326-4ecc-8b58-4b777e64a3e5"></script>
+</head>
+<body>
+<x-dc>
+
+<helmet>
+  <style>/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("2bb8a4c9-f5d2-4e79-b56e-453701e48f27") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("1cfdb6f5-a8ae-4eaf-abe2-b246de93a26a") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("7b9228fb-f4a0-45b9-8b7c-f082586e266c") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("5d1f15b6-cc37-4331-b127-ca324c32cf85") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("55cf7717-efc1-4010-8862-1588b93cfda3") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("2bb8a4c9-f5d2-4e79-b56e-453701e48f27") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("1cfdb6f5-a8ae-4eaf-abe2-b246de93a26a") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("7b9228fb-f4a0-45b9-8b7c-f082586e266c") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("5d1f15b6-cc37-4331-b127-ca324c32cf85") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("55cf7717-efc1-4010-8862-1588b93cfda3") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("2bb8a4c9-f5d2-4e79-b56e-453701e48f27") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("1cfdb6f5-a8ae-4eaf-abe2-b246de93a26a") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("7b9228fb-f4a0-45b9-8b7c-f082586e266c") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("5d1f15b6-cc37-4331-b127-ca324c32cf85") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("55cf7717-efc1-4010-8862-1588b93cfda3") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("7775e6b5-2de1-4158-b2e8-96ec3d53f4db") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("c0ec9bca-ea8c-4d9d-81ef-2df1bbe6e4f5") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* math */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("d6e65163-4ae5-4bd9-b3d2-ce7c390b1271") format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("77c15996-2f9b-42c2-90a2-ebf63002cf97") format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("4b8d9d6e-13d2-4454-a6b4-2a2e2dc33f9f") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("dfa64954-0a61-49e7-a711-dee7bf55444c") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("9077c1e8-27fe-4413-98cd-7910ead28f07") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("7775e6b5-2de1-4158-b2e8-96ec3d53f4db") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("c0ec9bca-ea8c-4d9d-81ef-2df1bbe6e4f5") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* math */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("d6e65163-4ae5-4bd9-b3d2-ce7c390b1271") format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("77c15996-2f9b-42c2-90a2-ebf63002cf97") format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("4b8d9d6e-13d2-4454-a6b4-2a2e2dc33f9f") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("dfa64954-0a61-49e7-a711-dee7bf55444c") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("9077c1e8-27fe-4413-98cd-7910ead28f07") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+  <script src="96774983-e63b-483c-b601-3ecd66c9a8ec"></script>
+  <script src="9017afaf-d338-41fb-b986-a3ae7dc9a7dd"></script>
+  <style>
+    doc-page:not(:defined){visibility:hidden;}
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    * { animation-delay: -99s !important; animation-duration: .001s !important;
+        animation-iteration-count: 1 !important; animation-fill-mode: both !important;
+        animation-play-state: running !important; transition-duration: 0s !important; }
+    body{margin:0;background:#f8f4f4;color:#201f1d;font-family:'Lora',serif;}
+    a{color:#b68235;text-underline-offset:3px;}
+    a:hover{color:#e1ad66;}
+    ::selection{background:rgba(182,130,53,0.3);}
+    .btn{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:16px;border-radius:100px;padding:14px 28px;cursor:pointer;transition:transform .15s,box-shadow .15s;}
+    .btn:hover{transform:translateY(-2px);}
+    .btn-fill{background:#b68235;color:#f8f4f4;box-shadow:0 8px 20px rgba(182,130,53,0.35);}
+    .btn-fill:hover{box-shadow:0 12px 28px rgba(182,130,53,0.45);}
+    .btn-outline-dark{border:1.5px solid rgba(248,244,244,0.5);color:#f8f4f4;}
+    .btn-outline-dark:hover{background:rgba(248,244,244,0.12);}
+    .btn-outline-light{border:1.5px solid rgba(32,31,29,0.3);color:#201f1d;}
+    .btn-outline-light:hover{background:rgba(32,31,29,0.06);}
+    .kicker{font-family:'Lora',serif;font-size:12px;letter-spacing:0.14em;text-transform:uppercase;margin:0 0 16px;}
+    .card{border-radius:16px;transition:transform .2s,box-shadow .2s;}
+    .card:hover{transform:translateY(-4px);box-shadow:0 20px 40px rgba(32,31,29,0.12);}
+    .pill{background:rgba(182,130,53,0.12);color:#7d5411;font-size:13px;padding:8px 16px;border-radius:100px;}
+  </style>
+</helmet>
+
+<doc-page margin="0">
+<div style="max-width:1200px;margin:0 auto;">
+  <nav style="display:flex;align-items:center;justify-content:space-between;padding:32px 48px;">
+    <div style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:23px;">Sania Gupta</div>
+    <div style="display:flex;align-items:center;gap:32px;font-size:14px;">
+      <a href="#about" style="color:#201f1d;text-decoration:none;">About</a>
+      <a href="#clients" style="color:#201f1d;text-decoration:none;">Case Studies</a>
+      <a href="#speaking" style="color:#201f1d;text-decoration:none;">Speaking</a>
+      <a href="#contact" style="color:#201f1d;text-decoration:none;">Contact</a>
+      <a href="mailto:hello@saniagupta.com?subject=Consulting%20Inquiry" class="btn btn-fill" style="padding:10px 22px;font-size:14px;">Work with me</a>
+    </div>
+  </nav>
+</div>
+
+<section style="background:#201f1d;color:#f8f4f4;overflow:hidden;position:relative;">
+  <div style="max-width:1200px;margin:0 auto;padding:72px 48px 100px;display:grid;grid-template-columns:1.05fr 0.85fr;gap:56px;align-items:center;position:relative;z-index:1;">
+    <div>
+      <p class="kicker" style="color:#e1ad66;">Founder · eCommerce &amp; B2B CRO Strategist</p>
+      <h1 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:64px;line-height:1.05;letter-spacing:-0.01em;margin:0 0 28px;">Building high-converting businesses<br>— not just beautiful <em style="color:#e1ad66;font-style:italic;">websites.</em></h1>
+      <p style="font-size:19px;line-height:1.65;max-width:540px;color:rgba(248,244,244,0.75);margin:0 0 36px;">Sania Gupta grows brands through strategy, UX and Conversion Rate Optimization — as founder of Digital Kangaroos (B2B &amp; corporate) and Cart Potato (Shopify &amp; D2C).</p>
+      <div style="display:flex;gap:16px;margin-bottom:44px;flex-wrap:wrap;">
+        <a href="mailto:hello@saniagupta.com?subject=Speaking%20Inquiry" class="btn btn-fill">Book me to speak</a>
+        <a href="mailto:hello@saniagupta.com?subject=Consulting%20Inquiry" class="btn btn-outline-dark">Work with me</a>
+      </div>
+      <div style="display:flex;gap:48px;">
+        <div>
+          <p style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:36px;color:#e1ad66;margin:0;font-variant-numeric:tabular-nums;">10+</p>
+          <p style="font-size:13px;color:rgba(248,244,244,0.65);margin:4px 0 0;">Years in the industry</p>
+        </div>
+        <div>
+          <p style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:36px;color:#e1ad66;margin:0;font-variant-numeric:tabular-nums;">200+</p>
+          <p style="font-size:13px;color:rgba(248,244,244,0.65);margin:4px 0 0;">Websites delivered</p>
+        </div>
+        <div>
+          <p style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:36px;color:#e1ad66;margin:0;font-variant-numeric:tabular-nums;">2</p>
+          <p style="font-size:13px;color:rgba(248,244,244,0.65);margin:4px 0 0;">Growth agencies built</p>
+        </div>
+      </div>
+    </div>
+    <div style="position:relative;">
+      <div style="border-radius:20px;overflow:hidden;aspect-ratio:4/5;box-shadow:0 30px 60px rgba(0,0,0,0.4);">
+        <image-slot id="hero-portrait" shape="rect" placeholder="Headshot — Sania Gupta" src="/extracted_60ec7261-46fe-454a-aa51-5d355901dde5.webp"></image-slot>
+      </div>
+      <div style="text-align:center;margin-top:20px;">
+        <p style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:22px;margin:0 0 4px;">Sania Gupta</p>
+        <p style="font-size:13px;letter-spacing:0.08em;text-transform:uppercase;color:#e1ad66;margin:0;">Founder, Digital Kangaroos &amp; Cart Potato</p>
+      </div>
+    </div>
+  </div>
+  <div style="position:absolute;top:-120px;right:-120px;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(182,130,53,0.25),transparent 70%);"></div>
+</section>
+
+<div style="max-width:1200px;margin:0 auto;padding:0 48px;">
+
+  <section id="about" style="padding:96px 0;display:grid;grid-template-columns:220px 1fr;gap:64px;">
+    <h6 style="font-family:'Lora',serif;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(32,31,29,0.55);margin:0;">About</h6>
+    <div style="max-width:680px;">
+      <p style="font-size:16px;font-style:italic;color:#7d5411;margin:0 0 20px;">"A website is a business asset before it's a design object."</p>
+      <p style="font-size:22px;line-height:1.55;font-family:'Cormorant Garamond',serif;margin:0 0 24px;">Sania started out designing websites the way most agencies do — chasing polish. It didn't take long to notice the gap: sites that won awards and portfolios but never moved the numbers that actually mattered to the businesses paying for them.</p>
+      <p style="font-size:17px;line-height:1.7;color:rgba(32,31,29,0.75);margin:0 0 20px;">That gap became her specialty. She built Digital Kangaroos to bring Conversion Rate Optimization into B2B and corporate web design — a space that still treats CRO as an afterthought — and later founded Cart Potato to apply the same discipline to Shopify and D2C, where buying psychology plays by entirely different rules.</p>
+      <p style="font-size:17px;line-height:1.7;color:rgba(32,31,29,0.75);margin:0;">Running two agencies at once is deliberate: it keeps her close to both sides of how businesses actually sell online, and it's the reason her point of view on design and revenue keeps getting sharper.</p>
+    </div>
+  </section>
+
+  <section style="padding:0 0 96px;">
+    <h6 style="font-size:13px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(32,31,29,0.55);margin:0 0 40px;">Point of view</h6>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:40px;">
+      <div class="card" style="border:1px solid rgba(32,31,29,0.12);padding:32px;">
+        <div style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:40px;color:#b68235;font-variant-numeric:tabular-nums;margin:0 0 14px;">01</div>
+        <h4 style="margin:0 0 10px;">Design is a conversion lever</h4>
+        <p style="font-size:15px;line-height:1.6;color:rgba(32,31,29,0.75);margin:0;">Every layout choice is tested against one question: does this move a visitor closer to a decision?</p>
+      </div>
+      <div class="card" style="border:1px solid rgba(32,31,29,0.12);padding:32px;">
+        <div style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:40px;color:#b68235;font-variant-numeric:tabular-nums;margin:0 0 14px;">02</div>
+        <h4 style="margin:0 0 10px;">B2B and D2C need different playbooks</h4>
+        <p style="font-size:15px;line-height:1.6;color:rgba(32,31,29,0.75);margin:0;">Running both a corporate and a D2C agency is deliberate — the buying psychology, and the fixes, differ completely.</p>
+      </div>
+      <div class="card" style="border:1px solid rgba(32,31,29,0.12);padding:32px;">
+        <div style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:40px;color:#b68235;font-variant-numeric:tabular-nums;margin:0 0 14px;">03</div>
+        <h4 style="margin:0 0 10px;">CRO is a discipline, not an afterthought</h4>
+        <p style="font-size:15px;line-height:1.6;color:rgba(32,31,29,0.75);margin:0;">Optimization built into the first draft, not a plugin added post-launch.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="clients" style="padding:0 0 96px;">
+    <h6 style="font-size:13px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(32,31,29,0.55);margin:0 0 12px;">Case studies</h6>
+    <p style="font-size:17px;line-height:1.6;max-width:640px;color:rgba(32,31,29,0.75);margin:0 0 44px;">A selection of the businesses Digital Kangaroos and Cart Potato have worked with — spanning healthcare, industrial and D2C.</p>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
+      <div style="height:90px;display:flex;align-items:center;justify-content:center;padding:14px;">
+        <image-slot id="client-organic-india" shape="rect" fit="contain" placeholder="Organic India"></image-slot>
+      </div>
+      <div style="height:90px;display:flex;align-items:center;justify-content:center;padding:14px;">
+        <image-slot id="client-avon-steel" shape="rect" fit="contain" placeholder="Avon Steel"></image-slot>
+      </div>
+      <div style="height:90px;display:flex;align-items:center;justify-content:center;padding:14px;">
+        <image-slot id="client-orthoderma" shape="rect" fit="contain" placeholder="Orthoderma Clinic"></image-slot>
+      </div>
+      <div style="height:90px;display:flex;align-items:center;justify-content:center;padding:14px;">
+        <image-slot id="client-siemens" shape="rect" fit="contain" placeholder="Siemens Healthineers"></image-slot>
+      </div>
+      <div style="height:90px;display:flex;align-items:center;justify-content:center;padding:14px;">
+        <image-slot id="client-shyam-medtech" shape="rect" fit="contain" placeholder="Shyam MedTech"></image-slot>
+      </div>
+      <div style="height:90px;display:flex;align-items:center;justify-content:center;padding:14px;">
+        <image-slot id="client-mos-code" shape="rect" fit="contain" placeholder="MO's Code"></image-slot>
+      </div>
+      <div style="height:90px;display:flex;align-items:center;justify-content:center;padding:14px;">
+        <image-slot id="client-happy-steels" shape="rect" fit="contain" placeholder="Happy Steels"></image-slot>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:0 0 96px;">
+    <div style="border-left:3px solid #b68235;padding:8px 0 8px 32px;max-width:760px;margin:0 auto;">
+      <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:26px;line-height:1.5;margin:0 0 16px;color:rgba(32,31,29,0.85);">"[Client testimonial goes here — a line on the impact of working with Digital Kangaroos or Cart Potato.]"</p>
+      <p style="font-size:14px;letter-spacing:0.04em;color:rgba(32,31,29,0.55);margin:0;">— Name, Title, Company</p>
+    </div>
+  </section>
+
+  <section id="speaking" style="padding:0 0 96px;">
+    <h6 style="font-size:13px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(32,31,29,0.55);margin:0 0 40px;">Speaking &amp; media</h6>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:56px;">
+      <div>
+        <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:26px;margin:0 0 16px;">Topics</h3>
+        <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;">
+          <li style="font-size:16px;color:rgba(32,31,29,0.8);padding-left:20px;border-left:2px solid #b68235;">The psychology behind high-converting Shopify stores</li>
+          <li style="font-size:16px;color:rgba(32,31,29,0.8);padding-left:20px;border-left:2px solid #b68235;">Why most D2C websites don't convert</li>
+          <li style="font-size:16px;color:rgba(32,31,29,0.8);padding-left:20px;border-left:2px solid #b68235;">Scaling Shopify and B2B brands profitably</li>
+          <li style="font-size:16px;color:rgba(32,31,29,0.8);padding-left:20px;border-left:2px solid #b68235;">Building CRO-first digital businesses</li>
+          <li style="font-size:16px;color:rgba(32,31,29,0.8);padding-left:20px;border-left:2px solid #b68235;">Women in entrepreneurship</li>
+        </ul>
+      </div>
+      <div>
+        <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:26px;margin:0 0 16px;">Best suited for</h3>
+        <div style="display:flex;flex-wrap:wrap;gap:12px;margin-bottom:28px;">
+          <span class="pill">eCommerce &amp; D2C summits</span>
+          <span class="pill">B2B growth conferences</span>
+          <span class="pill">Founder &amp; entrepreneurship events</span>
+          <span class="pill">Podcasts &amp; interviews</span>
+        </div>
+        <a href="mailto:hello@saniagupta.com?subject=Speaking%20Inquiry" class="btn btn-outline-light">Send a speaking inquiry</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<section style="padding:64px 0;">
+  <div style="max-width:1200px;margin:0 auto;padding:0 48px;">
+    <p style="font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:rgba(32,31,29,0.45);margin:0 0 36px;text-align:center;">As featured in</p>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
+      <div style="height:70px;display:flex;align-items:center;justify-content:center;padding:14px;">
+        <image-slot id="press1" shape="rect" fit="contain" placeholder="Press logo"></image-slot>
+      </div>
+      <div style="height:70px;display:flex;align-items:center;justify-content:center;padding:14px;">
+        <image-slot id="press2" shape="rect" fit="contain" placeholder="Press logo"></image-slot>
+      </div>
+      <div style="height:70px;display:flex;align-items:center;justify-content:center;padding:14px;">
+        <image-slot id="press3" shape="rect" fit="contain" placeholder="Press logo"></image-slot>
+      </div>
+      <div style="height:70px;display:flex;align-items:center;justify-content:center;padding:14px;">
+        <image-slot id="press4" shape="rect" fit="contain" placeholder="Press logo"></image-slot>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div style="max-width:1200px;margin:0 auto;padding:0 48px;">
+
+  <section style="padding:96px 0;">
+    <h6 style="font-size:13px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(32,31,29,0.55);margin:0 0 40px;">Work with me</h6>
+    <div style="display:grid;grid-template-columns:1.2fr 1fr;gap:56px;align-items:start;">
+      <p style="font-size:24px;line-height:1.5;font-family:'Cormorant Garamond',serif;margin:0;">Engagements run through Digital Kangaroos or Cart Potato depending on your business — Sania advises directly on the strategic layer of both.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;">
+        <span class="pill">Shopify consulting</span>
+        <span class="pill">CRO audits</span>
+        <span class="pill">eCommerce strategy</span>
+        <span class="pill">Workshops</span>
+        <span class="pill">Advisory</span>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:0 0 96px;display:grid;grid-template-columns:220px 1fr;gap:64px;">
+    <h6 style="font-size:13px;letter-spacing:0.1em;text-transform:uppercase;color:rgba(32,31,29,0.55);margin:0;">FAQ</h6>
+    <div style="max-width:700px;display:flex;flex-direction:column;gap:28px;">
+      <div>
+        <h4 style="margin:0 0 8px;">Who is Sania Gupta?</h4>
+        <p style="font-size:15px;line-height:1.65;color:rgba(32,31,29,0.75);margin:0;">Founder of Digital Kangaroos (B2B &amp; corporate websites) and Cart Potato (Shopify &amp; D2C) — an eCommerce and CRO strategist who builds websites that grow revenue, not just look good.</p>
+      </div>
+      <div>
+        <h4 style="margin:0 0 8px;">What has she built?</h4>
+        <p style="font-size:15px;line-height:1.65;color:rgba(32,31,29,0.75);margin:0;">Two specialist agencies and 200+ websites across B2B, healthcare, industrial and D2C — see Case Studies above.</p>
+      </div>
+      <div>
+        <h4 style="margin:0 0 8px;">Can I hire her directly for a project?</h4>
+        <p style="font-size:15px;line-height:1.65;color:rgba(32,31,29,0.75);margin:0;">Project work runs through Digital Kangaroos or Cart Potato depending on your business type — reach out and she'll point you to the right team.</p>
+      </div>
+      <div>
+        <h4 style="margin:0 0 8px;">Is she available for speaking or press?</h4>
+        <p style="font-size:15px;line-height:1.65;color:rgba(32,31,29,0.75);margin:0;">Yes — keynotes, panels, podcasts and interviews on conversion-first design are all welcome. Use the contact options below.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer id="contact" style="background:#201f1d;color:#f8f4f4;">
+  <div style="max-width:1200px;margin:0 auto;padding:72px 48px 40px;">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:24px;flex-wrap:wrap;margin-bottom:48px;">
+      <div>
+        <h3 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:32px;margin:0 0 14px;">Let's talk.</h3>
+        <a href="mailto:hello@saniagupta.com" style="font-size:18px;color:#e1ad66;">hello@saniagupta.com</a>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;">
+        <a href="mailto:hello@saniagupta.com?subject=Speaking%20Inquiry" class="btn btn-outline-dark">Speaking inquiry</a>
+        <a href="mailto:hello@saniagupta.com?subject=Media%20Inquiry" class="btn btn-outline-dark">Media inquiry</a>
+        <a href="mailto:hello@saniagupta.com?subject=Consulting%20Inquiry" class="btn btn-outline-dark">Consulting inquiry</a>
+      </div>
+    </div>
+    <div style="display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(248,244,244,0.15);padding-top:24px;font-size:13px;color:rgba(248,244,244,0.55);">
+      <span>© 2026 Sania Gupta</span>
+      <a href="#" style="color:rgba(248,244,244,0.75);">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+</doc-page>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script="">
+
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+
+</script>
+
+
+</body></html>

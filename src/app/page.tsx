@@ -8,7 +8,7 @@ import { Menu, X, Plus } from "lucide-react";
 const WHATSAPP_NUMBER = "919814820845";
 
 const CONTACT_LINK_CLASS =
-  "text-base sm:text-lg lg:text-xl text-[#e1ad66] font-sans hover:underline w-fit";
+  "text-base sm:text-lg lg:text-xl text-[#e1ad66] hover:underline w-fit";
 
 export default function StandalonePortfolio() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -109,9 +109,9 @@ export default function StandalonePortfolio() {
         { value: "100%", label: "compliance with Google Core Web Vitals" },
       ],
       quote: {
-        text: "We needed a clean, intuitive site—and Digital Kangaroos delivered with technical precision and a modern interface that builds client trust.",
-        author: "Director",
-        role: "QQS Solutions",
+        text: "We needed a clean, intuitive site and Digital Kangaroos delivered with technical precision and a modern interface that builds client trust.",
+        author: "Chairman",
+        role: "Mr. Murali Cherat",
       },
     },
     "senses-india": {
@@ -126,21 +126,21 @@ export default function StandalonePortfolio() {
         },
       ],
       quote: {
-        text: "Partnering with Cart Potato completely transformed our online presence. The new website not only looks stunning but performs exceptionally well — faster, smoother, and more conversion-focused. Our customers love the experience, and so do we.",
+        text: "Partnering with Cart Potato completely transformed our online presence. The new website not only looks stunning but performs exceptionally well;  faster, smoother, and more conversion-focused. Our customers love the experience, and so do we.",
         author: "Anuj Shah",
         role: "-Founder, Senses India",
       },
     },
     "past-modern": {
       title: "Past Modern",
-      subtitle: "Shopify Store Revamp + CRO Optimisation",
+      subtitle: "Shopify Store Revamp + CRO Optimization",
       stats: [
         { value: "184%", label: "increase in conversion rate" },
         { value: "37%", label: "increase in total orders" },
         { value: "49%", label: "improvement in checkout completion rate" },
       ],
       quote: {
-        text: "Sania is the go-to person for all our Shopify store needs — from the complete revamp to ongoing optimisation. We've been working with her for both our Indian and USA stores and the results have been phenomenal every single time. Couldn't trust anyone more with our brand.",
+        text: "Sania is the go-to person for all our Shopify store needs from the complete revamp to ongoing optimization. We've been working with her for both our Indian and USA stores and the results have been phenomenal every single time. Couldn't trust anyone more with our brand.",
         author: "Shivang Chandna",
         role: "-Founder, Past Modern",
       },
@@ -188,7 +188,7 @@ export default function StandalonePortfolio() {
           </a>
 
           {/* Desktop Links */}
-          <nav className="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-sans font-medium">
+          <nav className="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-medium">
             <a
               href="#about"
               className="text-[#201f1d] hover:text-[#b68235] transition-colors"
@@ -241,28 +241,28 @@ export default function StandalonePortfolio() {
             <a
               href="#about"
               onClick={() => setMobileMenuOpen(false)}
-              className="block text-base font-sans font-medium text-[#201f1d] hover:text-[#b68235]"
+              className="block text-base font-medium text-[#201f1d] hover:text-[#b68235]"
             >
               About
             </a>
             <a
               href="#clients"
               onClick={() => setMobileMenuOpen(false)}
-              className="block text-base font-sans font-medium text-[#201f1d] hover:text-[#b68235]"
+              className="block text-base font-medium text-[#201f1d] hover:text-[#b68235]"
             >
               Case Studies
             </a>
             <a
               href="#speaking"
               onClick={() => setMobileMenuOpen(false)}
-              className="block text-base font-sans font-medium text-[#201f1d] hover:text-[#b68235]"
+              className="block text-base font-medium text-[#201f1d] hover:text-[#b68235]"
             >
               Speaking
             </a>
             <a
               href="#contact"
               onClick={() => setMobileMenuOpen(false)}
-              className="block text-base font-sans font-medium text-[#201f1d] hover:text-[#b68235]"
+              className="block text-base font-medium text-[#201f1d] hover:text-[#b68235]"
             >
               Contact
             </a>
@@ -281,32 +281,32 @@ export default function StandalonePortfolio() {
 
       {/* Hero Section */}
       <section className="bg-[#201f1d] text-[#f8f4f4] overflow-hidden relative">
-        <div className="max-w-[1200px] mx-auto px-3 sm:px-5 lg:px-8 py-4 sm:py-8 lg:py-12 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center relative z-10">
+        <div className="max-w-[1200px] mx-auto px-3 sm:px-5 lg:px-8 py-6 sm:py-8 lg:py-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center relative z-10">
           <div className="lg:col-span-7">
-            <p className="text-xs uppercase tracking-[0.14em] text-[#e1ad66] font-sans font-medium mb-3 sm:mb-4">
+            <p className="text-xs uppercase tracking-[0.14em] text-[#e1ad66] font-medium mb-2 sm:mb-3">
               Founder · eCommerce &amp; B2B CRO Strategist
             </p>
-            <h1 className="font-serif font-normal text-3xl sm:text-5xl lg:text-6xl leading-[1.12] sm:leading-[1.08] tracking-tight mb-5 sm:mb-7">
+            <h1 className="font-serif font-normal text-2xl sm:text-4xl lg:text-5xl leading-[1.12] sm:leading-[1.08] tracking-tight mb-4 sm:mb-5">
               Building high-converting businesses
               <br className="hidden sm:block" /> — not just beautiful{" "}
               <em className="text-[#e1ad66] italic font-serif">websites.</em>
             </h1>
-            <p className="text-sm sm:text-base lg:text-lg leading-relaxed max-w-[540px] text-[#f8f4f4]/75 mb-7 sm:mb-9 font-sans font-light">
+            <p className="text-sm sm:text-base leading-relaxed max-w-[540px] text-[#f8f4f4]/75 mb-5 sm:mb-6 font-light">
               Sania Gupta grows brands through strategy, UX and Conversion Rate
               Optimization — as founder of Digital Kangaroos (B2B &amp;
               corporate) and Cart Potato (Shopify &amp; D2C).
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 sm:mb-11 font-serif">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6 sm:mb-8 font-serif">
               <a
                 href="mailto:sania@digitalkangaroos.com?subject=Speaking%20Inquiry"
-                className="inline-flex items-center justify-center font-semibold text-sm sm:text-base rounded-full px-6 py-3.5 bg-[#b68235] text-[#f8f4f4] shadow-md shadow-[#b68235]/35 hover:-translate-y-0.5 hover:shadow-xl transition-all text-center"
+                className="inline-flex items-center justify-center font-semibold text-sm rounded-full px-6 py-3 bg-[#b68235] text-[#f8f4f4] shadow-md shadow-[#b68235]/35 hover:-translate-y-0.5 hover:shadow-xl transition-all text-center"
               >
                 Book me to speak
               </a>
               <a
                 href="mailto:sania@digitalkangaroos.com?subject=Consulting%20Inquiry"
-                className="inline-flex items-center justify-center font-semibold text-sm sm:text-base rounded-full px-6 py-3.5 border border-[#f8f4f4]/50 text-[#f8f4f4] hover:bg-[#f8f4f4]/10 transition-all text-center"
+                className="inline-flex items-center justify-center font-semibold text-sm rounded-full px-6 py-3 border border-[#f8f4f4]/50 text-[#f8f4f4] hover:bg-[#f8f4f4]/10 transition-all text-center"
               >
                 Work with me
               </a>
@@ -314,33 +314,33 @@ export default function StandalonePortfolio() {
 
             <div className="grid grid-cols-3 gap-4 sm:gap-8 pt-4 border-t border-[#f8f4f4]/10 lg:border-none lg:pt-0">
               <div>
-                <p className="font-serif font-semibold text-2xl sm:text-3xl lg:text-4xl text-[#e1ad66] m-0 tabular-nums">
+                <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#e1ad66] m-0 tabular-nums">
                   10+
                 </p>
-                <p className="text-[11px] sm:text-xs text-[#f8f4f4]/65 mt-1 font-sans">
+                <p className="text-[11px] sm:text-xs text-[#f8f4f4]/65 mt-1">
                   Years in industry
                 </p>
               </div>
               <div>
-                <p className="font-serif font-semibold text-2xl sm:text-3xl lg:text-4xl text-[#e1ad66] m-0 tabular-nums">
+                <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#e1ad66] m-0 tabular-nums">
                   200+
                 </p>
-                <p className="text-[11px] sm:text-xs text-[#f8f4f4]/65 mt-1 font-sans">
+                <p className="text-[11px] sm:text-xs text-[#f8f4f4]/65 mt-1">
                   Websites delivered
                 </p>
               </div>
               <div>
-                <p className="font-serif font-semibold text-2xl sm:text-3xl lg:text-4xl text-[#e1ad66] m-0 tabular-nums">
+                <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#e1ad66] m-0 tabular-nums">
                   2
                 </p>
-                <p className="text-[11px] sm:text-xs text-[#f8f4f4]/65 mt-1 font-sans">
+                <p className="text-[11px] sm:text-xs text-[#f8f4f4]/65 mt-1">
                   Agencies built
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="lg:col-span-5 relative max-w-md mx-auto lg:max-w-none w-full">
+          <div className="lg:col-span-5 relative max-w-[300px] sm:max-w-sm mx-auto lg:max-w-[400px] w-full">
             <div className="rounded-2xl overflow-hidden aspect-[4/5] shadow-2xl shadow-black/50 relative border border-[#f8f4f4]/10">
               <Image
                 src="/extracted_60ec7261-46fe-454a-aa51-5d355901dde5.webp"
@@ -350,11 +350,11 @@ export default function StandalonePortfolio() {
                 priority
               />
             </div>
-            <div className="text-center mt-4 sm:mt-5">
-              <p className="font-serif font-semibold text-lg sm:text-xl lg:text-2xl m-0 text-[#f8f4f4]">
+            <div className="text-center mt-3 sm:mt-4">
+              <p className="font-serif font-semibold text-base sm:text-lg lg:text-xl m-0 text-[#f8f4f4]">
                 Sania Gupta
               </p>
-              <p className="text-[10px] sm:text-xs tracking-[0.08em] uppercase text-[#e1ad66] mt-1 font-sans">
+              <p className="text-[10px] sm:text-xs tracking-[0.08em] uppercase text-[#e1ad66] mt-1">
                 Founder, Digital Kangaroos &amp; Cart Potato
               </p>
             </div>
@@ -372,7 +372,7 @@ export default function StandalonePortfolio() {
           id="about"
           className="py-10 sm:py-12 lg:py-16 grid grid-cols-1 md:grid-cols-[180px_1fr] lg:grid-cols-[220px_1fr] gap-6 sm:gap-12 lg:gap-16 border-b border-[#201f1d]/10"
         >
-          <h6 className="font-sans text-xs tracking-[0.1em] uppercase text-[#201f1d]/55 m-0 font-semibold">
+          <h6 className="text-sm sm:text-base tracking-[0.1em] uppercase text-[#201f1d]/80 m-0 font-bold">
             About
           </h6>
           <div className="max-w-[680px]">
@@ -385,7 +385,7 @@ export default function StandalonePortfolio() {
               won awards and portfolios but never moved the numbers that
               actually mattered to the businesses paying for them.
             </p>
-            <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-[#201f1d]/75 mb-4 sm:mb-5 font-sans font-light">
+            <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-[#201f1d]/75 mb-4 sm:mb-5 font-light">
               That gap became her specialty. She built Digital Kangaroos to
               bring Conversion Rate Optimization into B2B and corporate web
               design — a space that still treats CRO as an afterthought — and
@@ -393,7 +393,7 @@ export default function StandalonePortfolio() {
               and D2C, where buying psychology plays by entirely different
               rules.
             </p>
-            <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-[#201f1d]/75 font-sans font-light">
+            <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-[#201f1d]/75 font-light">
               Running two agencies at once is deliberate: it keeps her close to
               both sides of how businesses actually sell online, and it's the
               reason her point of view on design and revenue keeps getting
@@ -404,7 +404,7 @@ export default function StandalonePortfolio() {
 
         {/* Point of View Section */}
         <section className="py-10 sm:py-12 lg:py-16 border-b border-[#201f1d]/10">
-          <h6 className="font-sans text-xs tracking-[0.1em] uppercase text-[#201f1d]/55 mb-8 sm:mb-10 font-semibold">
+          <h6 className="text-sm sm:text-base tracking-[0.1em] uppercase text-[#201f1d]/80 mb-8 sm:mb-10 font-bold">
             Point of view
           </h6>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
@@ -415,7 +415,7 @@ export default function StandalonePortfolio() {
               <h4 className="font-serif text-lg sm:text-xl font-semibold mb-2 text-[#201f1d]">
                 Design is a conversion lever
               </h4>
-              <p className="text-xs sm:text-sm leading-relaxed text-[#201f1d]/75 font-sans font-light">
+              <p className="text-xs sm:text-sm leading-relaxed text-[#201f1d]/75 font-light">
                 Every layout choice is tested against one question: does this
                 move a visitor closer to a decision?
               </p>
@@ -428,7 +428,7 @@ export default function StandalonePortfolio() {
               <h4 className="font-serif text-lg sm:text-xl font-semibold mb-2 text-[#201f1d]">
                 B2B and D2C need different playbooks
               </h4>
-              <p className="text-xs sm:text-sm leading-relaxed text-[#201f1d]/75 font-sans font-light">
+              <p className="text-xs sm:text-sm leading-relaxed text-[#201f1d]/75 font-light">
                 Running both a corporate and a D2C agency is deliberate — the
                 buying psychology, and the fixes, differ completely.
               </p>
@@ -441,7 +441,7 @@ export default function StandalonePortfolio() {
               <h4 className="font-serif text-lg sm:text-xl font-semibold mb-2 text-[#201f1d]">
                 CRO is a discipline, not an afterthought
               </h4>
-              <p className="text-xs sm:text-sm leading-relaxed text-[#201f1d]/75 font-sans font-light">
+              <p className="text-xs sm:text-sm leading-relaxed text-[#201f1d]/75 font-light">
                 Optimization built into the first draft, not a plugin added
                 post-launch.
               </p>
@@ -454,12 +454,11 @@ export default function StandalonePortfolio() {
           id="clients"
           className="py-10 sm:py-12 lg:py-16 border-b border-[#201f1d]/10"
         >
-          <h6 className="font-sans text-xs tracking-[0.1em] uppercase text-[#201f1d]/55 mb-2 font-semibold">
+          <h6 className="text-sm sm:text-base tracking-[0.1em] uppercase text-[#201f1d]/80 mb-2 font-bold">
             Case studies
           </h6>
-          <p className="text-sm sm:text-base lg:text-lg leading-relaxed max-w-[640px] text-[#201f1d]/75 mb-8 sm:mb-10 font-sans font-light">
-            A selection of the businesses Digital Kangaroos and Cart Potato have
-            worked with — spanning healthcare, industrial and D2C.
+          <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-[#201f1d]/75 mb-8 sm:mb-10 font-light">
+            A selection of the businesses Digital Kangaroos and Cart Potato have worked with spanning healthcare, industrial and D2C.
           </p>
 
           {/* Brands Grid */}
@@ -538,7 +537,7 @@ export default function StandalonePortfolio() {
                 <h3 className="font-serif font-semibold text-2xl sm:text-3xl text-[#b68235] mb-1 sm:mb-2">
                   {caseStudies[activeCaseStudy].title}
                 </h3>
-                <p className="font-sans text-xs sm:text-sm text-[#201f1d]/65 tracking-wide mb-6 sm:mb-8 font-medium">
+                <p className="text-xs sm:text-sm text-[#201f1d]/65 tracking-wide mb-6 sm:mb-8 font-medium">
                   {caseStudies[activeCaseStudy].subtitle}
                 </p>
 
@@ -552,7 +551,7 @@ export default function StandalonePortfolio() {
                       <p className="font-serif font-bold text-3xl sm:text-4xl text-[#b68235] mb-2 tabular-nums">
                         {stat.value}
                       </p>
-                      <p className="font-sans text-xs sm:text-sm text-[#201f1d]/75 font-light leading-snug">
+                      <p className="text-xs sm:text-sm text-[#201f1d]/75 font-light leading-snug">
                         {stat.label}
                       </p>
                     </div>
@@ -566,10 +565,10 @@ export default function StandalonePortfolio() {
                   "{caseStudies[activeCaseStudy].quote.text}"
                 </p>
                 <div>
-                  <p className="font-sans font-medium text-xs sm:text-sm text-[#201f1d]/85">
+                  <p className="font-medium text-xs sm:text-sm text-[#201f1d]/85">
                     {caseStudies[activeCaseStudy].quote.author}
                   </p>
-                  <p className="font-sans text-xs text-[#201f1d]/60 font-light mt-0.5">
+                  <p className="text-xs text-[#201f1d]/60 font-light mt-0.5">
                     {caseStudies[activeCaseStudy].quote.role}
                   </p>
                 </div>
@@ -583,7 +582,7 @@ export default function StandalonePortfolio() {
           id="speaking"
           className="py-10 sm:py-12 lg:py-16 border-b border-[#201f1d]/10"
         >
-          <h6 className="font-sans text-xs tracking-[0.1em] uppercase text-[#201f1d]/55 mb-8 sm:mb-10 font-semibold">
+          <h6 className="text-sm sm:text-base tracking-[0.1em] uppercase text-[#201f1d]/80 mb-8 sm:mb-10 font-bold">
             Speaking &amp; media
           </h6>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-12 lg:gap-16">
@@ -591,7 +590,7 @@ export default function StandalonePortfolio() {
               <h3 className="font-serif font-semibold text-xl sm:text-2xl mb-4 sm:mb-5 text-[#201f1d]">
                 Topics
               </h3>
-              <ul className="space-y-3 sm:space-y-4 font-sans font-light">
+              <ul className="space-y-3 sm:space-y-4 font-light">
                 {[
                   "The psychology behind high-converting Shopify stores",
                   "Why most D2C websites don't convert",
@@ -622,7 +621,7 @@ export default function StandalonePortfolio() {
                 ].map((pill, pIdx) => (
                   <span
                     key={pIdx}
-                    className="bg-[#b68235]/12 text-[#7d5411] text-[11px] sm:text-xs font-sans font-medium px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full"
+                    className="bg-[#b68235]/12 text-[#7d5411] text-[11px] sm:text-xs font-medium px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full"
                   >
                     {pill}
                   </span>
@@ -640,7 +639,7 @@ export default function StandalonePortfolio() {
 
         {/* Work With Me Section */}
         <section className="py-10 sm:py-12 lg:py-16 border-b border-[#201f1d]/10">
-          <h6 className="font-sans text-xs tracking-[0.1em] uppercase text-[#201f1d]/55 mb-6 sm:mb-10 font-semibold">
+          <h6 className="text-sm sm:text-base tracking-[0.1em] uppercase text-[#201f1d]/80 mb-6 sm:mb-10 font-bold">
             Work with me
           </h6>
           <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-8 sm:gap-12 items-start">
@@ -659,7 +658,7 @@ export default function StandalonePortfolio() {
               ].map((item, i) => (
                 <span
                   key={i}
-                  className="bg-[#b68235]/12 text-[#7d5411] text-[11px] sm:text-xs font-sans font-medium px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full"
+                  className="bg-[#b68235]/12 text-[#7d5411] text-[11px] sm:text-xs font-medium px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full"
                 >
                   {item}
                 </span>
@@ -670,15 +669,15 @@ export default function StandalonePortfolio() {
 
         {/* FAQ Section */}
         <section className="py-10 sm:py-12 lg:py-16 grid grid-cols-1 md:grid-cols-[180px_1fr] lg:grid-cols-[220px_1fr] gap-6 sm:gap-12">
-          <h6 className="font-sans text-xs tracking-[0.1em] uppercase text-[#201f1d]/55 m-0 font-semibold">
+          <h6 className="text-sm sm:text-base tracking-[0.1em] uppercase text-[#201f1d]/80 m-0 font-bold">
             FAQ
           </h6>
-          <div className="max-w-[700px] font-sans divide-y divide-[#201f1d]/10 border-y border-[#201f1d]/10">
+          <div className="max-w-[700px] divide-y divide-[#201f1d]/10 border-y border-[#201f1d]/10">
             {faqs.map((faq, index) => {
               const isOpen = openFaq === index;
               return (
                 <div key={faq.question}>
-                  <h4>
+                  <h6>
                     <button
                       type="button"
                       onClick={() => setOpenFaq(isOpen ? null : index)}
@@ -688,7 +687,7 @@ export default function StandalonePortfolio() {
                       className="w-full flex items-center justify-between gap-4 text-left py-4 sm:py-5 cursor-pointer group"
                     >
                       <span
-                        className={`font-serif font-semibold text-base sm:text-lg lg:text-xl transition-colors duration-200 ${
+                        className={`font-serif font-medium text-xl sm:text-2xl lg:text-3xl transition-colors duration-200 ${
                           isOpen
                             ? "text-[#b68235]"
                             : "text-[#201f1d] group-hover:text-[#b68235]"
@@ -705,7 +704,7 @@ export default function StandalonePortfolio() {
                         }`}
                       />
                     </button>
-                  </h4>
+                  </h6>
                   <div
                     id={`faq-panel-${index}`}
                     role="region"
@@ -731,7 +730,7 @@ export default function StandalonePortfolio() {
 
       {/* Footer / Contact */}
       <footer id="contact" className="bg-[#201f1d] text-[#f8f4f4]">
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-12 py-12 sm:py-16">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-12 py-8 sm:py-10">
           <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-10 sm:mb-12">
             <div>
               <h3 className="font-serif font-medium text-2xl sm:text-3xl lg:text-4xl mb-2 sm:mb-3 text-[#f8f4f4]">
@@ -778,7 +777,7 @@ export default function StandalonePortfolio() {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-4 border-t border-[#f8f4f4]/25 pt-6 text-xs sm:text-sm text-[#f8f4f4]/80 font-sans">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4 border-t border-[#f8f4f4]/25 pt-6 text-xs sm:text-sm text-[#f8f4f4]/80">
             <span>Copyright © 2026 Sania Gupta</span>
             <a
               target="_blank"

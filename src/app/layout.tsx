@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sania Gupta Portfolio",
-  description: "Sania Gupta Portfolio",
+  title: "Sania Gupta | eCommerce & B2B CRO Strategist | Shopify CRO Expert India",
+  description: "Sania Gupta is an eCommerce & B2B CRO strategist helping Shopify and D2C brands improve conversions through smarter UX, strategy, and store revamps.",
+  verification: {
+    google: "JbjxbYEIltrJU97cltt4CTaHnLpDmzRLAaokpzG0ugs",
+  },
 };
 
 export default function RootLayout({

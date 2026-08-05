@@ -10,6 +10,15 @@ const WHATSAPP_NUMBER = "919814820845";
 const CONTACT_LINK_CLASS =
   "text-base sm:text-lg lg:text-xl text-[#e1ad66] hover:underline w-fit";
 
+function scrollToSection(e: React.MouseEvent<HTMLAnchorElement>, id: string) {
+  e.preventDefault();
+  const el = document.getElementById(id);
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth" });
+    window.history.replaceState(null, "", window.location.pathname);
+  }
+}
+
 export default function StandalonePortfolio() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeCaseStudy, setActiveCaseStudy] = useState("organic-india");
@@ -82,8 +91,8 @@ export default function StandalonePortfolio() {
       ],
       quote: {
         text: "Digital Kangaroos transformed our outdated site into a global-ready platform that reflects our leadership and drives qualified B2B leads.",
-        author: "Marketing Head",
-        role: "Avon Steel Ltd.",
+        author: "Rajesh Tripathi",
+        role: "-Marketing Head, Avon Steel Ltd",
       },
     },
     "octave-mettle": {
@@ -155,8 +164,8 @@ export default function StandalonePortfolio() {
       ],
       quote: {
         text: "Our Shopify store CRO, led by Sania, has driven consistent traffic and revenue growth, especially in digital-first markets.",
-        author: "Shivang Chandna",
-        role: "-Founder, Past Modern",
+        author: "Ernesto Gomez",
+        role: "-Ecommerce Head, Von Dutch",
       },
     },
     allter: {
@@ -169,8 +178,8 @@ export default function StandalonePortfolio() {
       ],
       quote: {
         text: "Cart Potato truly understood our vision. They transformed our Shopify store into a seamless, interactive experience that reflects our sustainable brand ethos. The results speak for themselves.",
-        author: "Shivang Chandna",
-        role: "-Founder, Past Modern",
+        author: "Surbhi Bafna",
+        role: "-Founder & CEO, Allter",
       },
     },
   };
@@ -191,24 +200,28 @@ export default function StandalonePortfolio() {
           <nav className="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-medium">
             <a
               href="#about"
+              onClick={(e) => scrollToSection(e, "about")}
               className="text-[#201f1d] hover:text-[#b68235] transition-colors"
             >
               About
             </a>
             <a
               href="#clients"
+              onClick={(e) => scrollToSection(e, "clients")}
               className="text-[#201f1d] hover:text-[#b68235] transition-colors"
             >
               Case Studies
             </a>
             <a
               href="#speaking"
+              onClick={(e) => scrollToSection(e, "speaking")}
               className="text-[#201f1d] hover:text-[#b68235] transition-colors"
             >
               Speaking
             </a>
             <a
               href="#contact"
+              onClick={(e) => scrollToSection(e, "contact")}
               className="text-[#201f1d] hover:text-[#b68235] transition-colors"
             >
               Contact
@@ -240,28 +253,40 @@ export default function StandalonePortfolio() {
           <div className="md:hidden bg-[#f8f4f4] border-b border-[#201f1d]/10 px-6 py-6 space-y-4 shadow-xl">
             <a
               href="#about"
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={(e) => {
+                scrollToSection(e, "about");
+                setMobileMenuOpen(false);
+              }}
               className="block text-base font-medium text-[#201f1d] hover:text-[#b68235]"
             >
               About
             </a>
             <a
               href="#clients"
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={(e) => {
+                scrollToSection(e, "clients");
+                setMobileMenuOpen(false);
+              }}
               className="block text-base font-medium text-[#201f1d] hover:text-[#b68235]"
             >
               Case Studies
             </a>
             <a
               href="#speaking"
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={(e) => {
+                scrollToSection(e, "speaking");
+                setMobileMenuOpen(false);
+              }}
               className="block text-base font-medium text-[#201f1d] hover:text-[#b68235]"
             >
               Speaking
             </a>
             <a
               href="#contact"
-              onClick={() => setMobileMenuOpen(false)}
+              onClick={(e) => {
+                scrollToSection(e, "contact");
+                setMobileMenuOpen(false);
+              }}
               className="block text-base font-medium text-[#201f1d] hover:text-[#b68235]"
             >
               Contact

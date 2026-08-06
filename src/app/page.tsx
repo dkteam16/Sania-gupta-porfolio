@@ -119,8 +119,8 @@ export default function StandalonePortfolio() {
       ],
       quote: {
         text: "We needed a clean, intuitive site and Digital Kangaroos delivered with technical precision and a modern interface that builds client trust.",
-        author: "Chairman",
-        role: "Mr. Murali Cherat",
+        author: "Mr. Murali Cherat",
+        role: "Chairman",
       },
     },
     "senses-india": {

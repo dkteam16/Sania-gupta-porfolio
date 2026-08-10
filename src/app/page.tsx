@@ -305,10 +305,10 @@ export default function StandalonePortfolio() {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-[#201f1d] text-[#f8f4f4] overflow-hidden relative">
-        <div className="max-w-[1200px] mx-auto px-3 sm:px-5 lg:px-8 py-6 sm:py-8 lg:py-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center relative z-10">
+      <section className=" text-[#090909] overflow-hidden relative">
+        <div className="max-w-[1200px] mx-auto px-3 sm:px-5 lg:px-8 py-6 sm:py-8 lg:py-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center relative z-10 border-b border-[#201f1d]/10">
           <div className="lg:col-span-7">
-            <p className="text-xs uppercase tracking-[0.14em] text-[#e1ad66] font-medium mb-2 sm:mb-3">
+            <p className="text-xs uppercase tracking-[0.14em] text-[#b68235] font-medium mb-2 sm:mb-3">
               Founder · eCommerce &amp; B2B CRO Strategist
             </p>
             <h1 className="font-serif font-normal text-2xl sm:text-4xl lg:text-5xl leading-[1.12] sm:leading-[1.08] tracking-tight mb-4 sm:mb-5">
@@ -316,7 +316,7 @@ export default function StandalonePortfolio() {
               <br className="hidden sm:block" /> — not just beautiful{" "}
               <em className="text-[#e1ad66] italic font-serif">websites.</em>
             </h1>
-            <p className="text-sm sm:text-base leading-relaxed max-w-[540px] text-[#f8f4f4]/75 mb-5 sm:mb-6 font-light">
+            <p className="text-sm sm:text-base leading-relaxed max-w-[540px] text-[#090909]/75 mb-5 sm:mb-6 font-light">
               Sania Gupta grows brands through strategy, UX and Conversion Rate
               Optimization — as founder of Digital Kangaroos (B2B &amp;
               corporate) and Cart Potato (Shopify &amp; D2C).
@@ -331,7 +331,7 @@ export default function StandalonePortfolio() {
               </a>
               <a
                 href="mailto:sania@digitalkangaroos.com?subject=Consulting%20Inquiry"
-                className="inline-flex items-center justify-center font-semibold text-sm rounded-full px-6 py-3 border border-[#f8f4f4]/50 text-[#f8f4f4] hover:bg-[#f8f4f4]/10 transition-all text-center"
+                className="inline-flex items-center justify-center font-semibold text-sm rounded-full px-6 py-3 bg-[#090909] text-[#f8f4f4] shadow-md shadow-[#b68235]/35 hover:-translate-y-0.5 hover:shadow-xl transition-all text-center"
               >
                 Work with me
               </a>
@@ -339,26 +339,26 @@ export default function StandalonePortfolio() {
 
             <div className="grid grid-cols-3 gap-4 sm:gap-8 pt-4 border-t border-[#f8f4f4]/10 lg:border-none lg:pt-0">
               <div>
-                <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#e1ad66] m-0 tabular-nums">
+                <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#b68235] m-0 tabular-nums">
                   10+
                 </p>
-                <p className="text-[11px] sm:text-xs text-[#f8f4f4]/65 mt-1">
+                <p className="text-[11px] sm:text-xs text-[##090909]/65 mt-1">
                   Years in industry
                 </p>
               </div>
               <div>
-                <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#e1ad66] m-0 tabular-nums">
+                <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#b68235] m-0 tabular-nums">
                   200+
                 </p>
-                <p className="text-[11px] sm:text-xs text-[#f8f4f4]/65 mt-1">
+                <p className="text-[11px] sm:text-xs text-[#090909]/65 mt-1">
                   Websites delivered
                 </p>
               </div>
               <div>
-                <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#e1ad66] m-0 tabular-nums">
+                <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#b68235] m-0 tabular-nums">
                   2
                 </p>
-                <p className="text-[11px] sm:text-xs text-[#f8f4f4]/65 mt-1">
+                <p className="text-[11px] sm:text-xs text-[#090909]/65 mt-1">
                   Agencies built
                 </p>
               </div>
@@ -366,7 +366,7 @@ export default function StandalonePortfolio() {
           </div>
 
           <div className="lg:col-span-5 relative max-w-[300px] sm:max-w-sm mx-auto lg:max-w-[400px] w-full">
-            <div className="rounded-2xl overflow-hidden aspect-[4/5] shadow-2xl shadow-black/50 relative border border-[#f8f4f4]/10">
+            <div className="rounded-2xl overflow-hidden aspect-[4/5]  relative border border-[#f8f4f4]/10">
               <Image
                 src="/extracted_60ec7261-46fe-454a-aa51-5d355901dde5.webp"
                 alt="Headshot — Sania Gupta"
@@ -376,10 +376,10 @@ export default function StandalonePortfolio() {
               />
             </div>
             <div className="text-center mt-3 sm:mt-4">
-              <p className="font-serif font-semibold text-base sm:text-lg lg:text-xl m-0 text-[#f8f4f4]">
+              <p className="font-serif font-semibold text-base sm:text-lg lg:text-xl m-0 text-[#090909]">
                 Sania Gupta
               </p>
-              <p className="text-[10px] sm:text-xs tracking-[0.08em] uppercase text-[#e1ad66] mt-1">
+              <p className="text-[10px] sm:text-xs tracking-[0.08em] uppercase text-[#b68235] mt-1">
                 Founder, Digital Kangaroos &amp; Cart Potato
               </p>
             </div>
@@ -387,7 +387,7 @@ export default function StandalonePortfolio() {
         </div>
 
         {/* Ambient Radial Accent */}
-        <div className="absolute -top-32 -right-32 w-[360px] h-[360px] rounded-full bg-radial from-[#b68235]/25 to-transparent pointer-events-none" />
+        {/* <div className="absolute -top-32 -right-32 w-[360px] h-[360px] rounded-full bg-radial from-[#b68235]/25 to-transparent pointer-events-none" /> */}
       </section>
 
       {/* Main Content Area */}
@@ -646,7 +646,7 @@ export default function StandalonePortfolio() {
                 ].map((pill, pIdx) => (
                   <span
                     key={pIdx}
-                    className="bg-[#b68235]/12 text-[#7d5411] text-[11px] sm:text-xs font-medium px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full"
+                    className="bg-[#b68235]/12 text-[#7d5411] text-[11px] sm:text-lg font-medium px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full"
                   >
                     {pill}
                   </span>
@@ -683,7 +683,7 @@ export default function StandalonePortfolio() {
               ].map((item, i) => (
                 <span
                   key={i}
-                  className="bg-[#b68235]/12 text-[#7d5411] text-[11px] sm:text-xs font-medium px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full"
+                  className="bg-[#b68235]/12 text-[#7d5411] text-[11px] sm:text-lg font-medium px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full"
                 >
                   {item}
                 </span>

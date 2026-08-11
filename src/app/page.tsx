@@ -228,7 +228,7 @@ export default function StandalonePortfolio() {
             </a>
             <a
               href="mailto:sania@digitalkangaroos.com?subject=Consulting%20Inquiry"
-              className="inline-flex items-center justify-center font-serif font-semibold text-base sm:text-base rounded-full px-5 py-2.5 bg-[#b68235] text-[#f8f4f4]  hover:-translate-y-0.5  transition-all"
+              className="inline-flex items-center justify-center font-serif font-medium text-base sm:text-base rounded-full px-5 py-2.5 bg-[#b68235] text-[#f8f4f4]  hover:-translate-y-0.5  transition-all"
             >
               Work with me
             </a>
@@ -325,13 +325,13 @@ export default function StandalonePortfolio() {
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6 sm:mb-8 font-serif">
               <a
                 href="mailto:sania@digitalkangaroos.com?subject=Speaking%20Inquiry"
-                className="inline-flex items-center justify-center font-semibold text-base rounded-full px-6 py-3 bg-[#b68235] text-[#f8f4f4]  hover:-translate-y-0.5 transition-all text-center"
+                className="inline-flex items-center justify-center font-medium text-base rounded-full px-6 py-3 bg-[#b68235] text-[#f8f4f4]  hover:-translate-y-0.5 transition-all text-center"
               >
                 Book me to speak
               </a>
               <a
                 href="mailto:sania@digitalkangaroos.com?subject=Consulting%20Inquiry"
-                className="inline-flex items-center justify-center font-semibold text-base rounded-full px-6 py-3 bg-[#090909] text-[#f8f4f4]  hover:-translate-y-0.5 transition-all text-center"
+                className="inline-flex items-center justify-center font-medium text-base rounded-full px-6 py-3 bg-[#090909] text-[#f8f4f4]  hover:-translate-y-0.5 transition-all text-center"
               >
                 Work with me
               </a>
@@ -379,7 +379,7 @@ export default function StandalonePortfolio() {
               <p className="font-serif font-semibold text-base sm:text-lg lg:text-xl m-0 text-[#090909]">
                 Sania Gupta
               </p>
-              <p className="text-[10px] sm:text-base tracking-[0.08em] uppercase text-[#b68235] mt-1">
+              <p className="text-[10px] sm:text-sm tracking-[0.08em] uppercase text-[#000000] mt-1">
                 Founder, Digital Kangaroos &amp; Cart Potato
               </p>
             </div>

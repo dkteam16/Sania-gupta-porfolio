@@ -197,7 +197,7 @@ export default function StandalonePortfolio() {
           </a>
 
           {/* Desktop Links */}
-          <nav className="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-medium">
+          <nav className="hidden md:flex items-center gap-6 lg:gap-8 text-base font-medium">
             <a
               href="#about"
               onClick={(e) => scrollToSection(e, "about")}
@@ -228,7 +228,7 @@ export default function StandalonePortfolio() {
             </a>
             <a
               href="mailto:sania@digitalkangaroos.com?subject=Consulting%20Inquiry"
-              className="inline-flex items-center justify-center font-serif font-semibold text-xs sm:text-sm rounded-full px-5 py-2.5 bg-[#b68235] text-[#f8f4f4] shadow-md shadow-[#b68235]/30 hover:-translate-y-0.5 hover:shadow-lg transition-all"
+              className="inline-flex items-center justify-center font-serif font-semibold text-base sm:text-base rounded-full px-5 py-2.5 bg-[#b68235] text-[#f8f4f4]  hover:-translate-y-0.5  transition-all"
             >
               Work with me
             </a>
@@ -308,13 +308,13 @@ export default function StandalonePortfolio() {
       <section className=" text-[#090909] overflow-hidden relative">
         <div className="max-w-[1200px] mx-auto px-3 sm:px-5 lg:px-8 py-6 sm:py-8 lg:py-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center relative z-10 border-b border-[#201f1d]/10">
           <div className="lg:col-span-7">
-            <p className="text-xs uppercase tracking-[0.14em] text-[#b68235] font-medium mb-2 sm:mb-3">
+            <p className="text-lg uppercase tracking-[0.14em] text-[#b68235] font-medium mb-2 sm:mb-3">
               Founder · eCommerce &amp; B2B CRO Strategist
             </p>
             <h1 className="font-serif font-normal text-2xl sm:text-4xl lg:text-5xl leading-[1.12] sm:leading-[1.08] tracking-tight mb-4 sm:mb-5">
               Building high-converting businesses
               <br className="hidden sm:block" /> — not just beautiful{" "}
-              <em className="text-[#e1ad66] italic font-serif">websites.</em>
+              <em className="text-[#b68235] italic font-serif">websites.</em>
             </h1>
             <p className="text-sm sm:text-base leading-relaxed max-w-[540px] text-[#090909]/75 mb-5 sm:mb-6 font-light">
               Sania Gupta grows brands through strategy, UX and Conversion Rate
@@ -325,13 +325,13 @@ export default function StandalonePortfolio() {
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6 sm:mb-8 font-serif">
               <a
                 href="mailto:sania@digitalkangaroos.com?subject=Speaking%20Inquiry"
-                className="inline-flex items-center justify-center font-semibold text-sm rounded-full px-6 py-3 bg-[#b68235] text-[#f8f4f4] shadow-md shadow-[#b68235]/35 hover:-translate-y-0.5 hover:shadow-xl transition-all text-center"
+                className="inline-flex items-center justify-center font-semibold text-base rounded-full px-6 py-3 bg-[#b68235] text-[#f8f4f4]  hover:-translate-y-0.5 transition-all text-center"
               >
                 Book me to speak
               </a>
               <a
                 href="mailto:sania@digitalkangaroos.com?subject=Consulting%20Inquiry"
-                className="inline-flex items-center justify-center font-semibold text-sm rounded-full px-6 py-3 bg-[#090909] text-[#f8f4f4] shadow-md shadow-[#b68235]/35 hover:-translate-y-0.5 hover:shadow-xl transition-all text-center"
+                className="inline-flex items-center justify-center font-semibold text-base rounded-full px-6 py-3 bg-[#090909] text-[#f8f4f4]  hover:-translate-y-0.5 transition-all text-center"
               >
                 Work with me
               </a>
@@ -342,7 +342,7 @@ export default function StandalonePortfolio() {
                 <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#b68235] m-0 tabular-nums">
                   10+
                 </p>
-                <p className="text-[11px] sm:text-xs text-[##090909]/65 mt-1">
+                <p className="text-[11px] sm:text-base text-[##090909]/65 mt-1">
                   Years in industry
                 </p>
               </div>
@@ -350,7 +350,7 @@ export default function StandalonePortfolio() {
                 <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#b68235] m-0 tabular-nums">
                   200+
                 </p>
-                <p className="text-[11px] sm:text-xs text-[#090909]/65 mt-1">
+                <p className="text-[11px] sm:text-base text-[##090909]/65 mt-1">
                   Websites delivered
                 </p>
               </div>
@@ -358,7 +358,7 @@ export default function StandalonePortfolio() {
                 <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#b68235] m-0 tabular-nums">
                   2
                 </p>
-                <p className="text-[11px] sm:text-xs text-[#090909]/65 mt-1">
+                <p className="text-[11px] sm:text-base text-[##090909]/65 mt-1">
                   Agencies built
                 </p>
               </div>
@@ -379,7 +379,7 @@ export default function StandalonePortfolio() {
               <p className="font-serif font-semibold text-base sm:text-lg lg:text-xl m-0 text-[#090909]">
                 Sania Gupta
               </p>
-              <p className="text-[10px] sm:text-xs tracking-[0.08em] uppercase text-[#b68235] mt-1">
+              <p className="text-[10px] sm:text-base tracking-[0.08em] uppercase text-[#b68235] mt-1">
                 Founder, Digital Kangaroos &amp; Cart Potato
               </p>
             </div>
@@ -401,7 +401,7 @@ export default function StandalonePortfolio() {
             About
           </h6>
           <div className="max-w-[680px]">
-            <p className="text-sm sm:text-base lg:text-lg italic text-[#7d5411] mb-4 sm:mb-5 font-serif">
+            <p className="text-lg sm:text-lg lg:text-lg italic text-[#b68235] mb-4 sm:mb-5 font-serif">
               "A website is a business asset before it's a design object."
             </p>
             <p className="text-lg sm:text-2xl leading-snug font-serif mb-5 sm:mb-6 text-[#201f1d]">
@@ -562,7 +562,7 @@ export default function StandalonePortfolio() {
                 <h3 className="font-serif font-semibold text-2xl sm:text-3xl text-[#b68235] mb-1 sm:mb-2">
                   {caseStudies[activeCaseStudy].title}
                 </h3>
-                <p className="text-xs sm:text-sm text-[#201f1d]/65 tracking-wide mb-6 sm:mb-8 font-medium">
+                <p className="text-xs sm:text-base text-black tracking-wide mb-6 sm:mb-8 font-medium">
                   {caseStudies[activeCaseStudy].subtitle}
                 </p>
 
@@ -576,7 +576,7 @@ export default function StandalonePortfolio() {
                       <p className="font-serif font-bold text-3xl sm:text-4xl text-[#b68235] mb-2 tabular-nums">
                         {stat.value}
                       </p>
-                      <p className="text-xs sm:text-sm text-[#201f1d]/75 font-light leading-snug">
+                      <p className="text-xs sm:text-base text-[#201f1d]/75 font-light leading-snug">
                         {stat.label}
                       </p>
                     </div>
@@ -593,7 +593,7 @@ export default function StandalonePortfolio() {
                   <p className="font-medium text-xs sm:text-sm text-[#201f1d]/85">
                     {caseStudies[activeCaseStudy].quote.author}
                   </p>
-                  <p className="text-xs text-[#201f1d]/60 font-light mt-0.5">
+                  <p className="text-sm text-[#201f1d]/60 font-light mt-0.5">
                     {caseStudies[activeCaseStudy].quote.role}
                   </p>
                 </div>
@@ -625,7 +625,7 @@ export default function StandalonePortfolio() {
                 ].map((topic, i) => (
                   <li
                     key={i}
-                    className="text-sm sm:text-base text-[#201f1d]/80 pl-4 sm:pl-5 border-l-2 border-[#b68235]"
+                    className="text-lg sm:text-lg text-[#000000]/80 pl-4 sm:pl-5 border-l-2 border-[#b68235]"
                   >
                     {topic}
                   </li>
@@ -654,7 +654,7 @@ export default function StandalonePortfolio() {
               </div>
               <a
                 href="mailto:sania@digitalkangaroos.com?subject=Speaking%20Inquiry"
-                className="inline-flex items-center justify-center w-full sm:w-auto font-serif font-semibold text-xs sm:text-sm rounded-full px-6 py-3 border border-[#201f1d]/30 text-[#201f1d] hover:bg-[#201f1d]/5 transition-all text-center"
+                className="inline-flex items-center justify-center w-full sm:w-auto font-serif font-semibold text-base sm:text-base rounded-full px-6 py-3 border border-[#201f1d]/30 text-[#201f1d] hover:bg-[#201f1d]/5 transition-all text-center"
               >
                 Send a speaking inquiry
               </a>
@@ -783,19 +783,19 @@ export default function StandalonePortfolio() {
             <div className="flex flex-col sm:flex-row flex-wrap gap-2.5 sm:gap-3 font-serif w-full sm:w-auto">
               <a
                 href="mailto:sania@digitalkangaroos.com?subject=Speaking%20Inquiry"
-                className="px-5 py-2.5 rounded-full border border-[#f8f4f4]/50 text-xs sm:text-sm text-[#f8f4f4] hover:bg-[#f8f4f4]/10 transition-colors text-center"
+                className="px-5 py-2.5 rounded-full border border-[#f8f4f4]/50 text-base sm:text-base text-[#f8f4f4] hover:bg-[#f8f4f4]/10 transition-colors text-center"
               >
                 Speaking inquiry
               </a>
               <a
                 href="mailto:sania@digitalkangaroos.com?subject=Media%20Inquiry"
-                className="px-5 py-2.5 rounded-full border border-[#f8f4f4]/50 text-xs sm:text-sm text-[#f8f4f4] hover:bg-[#f8f4f4]/10 transition-colors text-center"
+                className="px-5 py-2.5 rounded-full border border-[#f8f4f4]/50 text-base sm:text-base text-[#f8f4f4] hover:bg-[#f8f4f4]/10 transition-colors text-center"
               >
                 Media inquiry
               </a>
               <a
                 href="mailto:sania@digitalkangaroos.com?subject=Consulting%20Inquiry"
-                className="px-5 py-2.5 rounded-full border border-[#f8f4f4]/50 text-xs sm:text-sm text-[#f8f4f4] hover:bg-[#f8f4f4]/10 transition-colors text-center"
+                className="px-5 py-2.5 rounded-full border border-[#f8f4f4]/50 text-base sm:text-base text-[#f8f4f4] hover:bg-[#f8f4f4]/10 transition-colors text-center"
               >
                 Consulting inquiry
               </a>

@@ -312,7 +312,7 @@ export default function StandalonePortfolio() {
               Founder · eCommerce &amp; B2B CRO Strategist
             </p>
             <h1 className="font-serif font-normal text-2xl sm:text-4xl lg:text-5xl leading-[1.12] sm:leading-[1.08] tracking-tight mb-4 sm:mb-5">
-              Building high - converting businesses
+              Building high-converting businesses
               <br className="hidden sm:block" /> & not just beautiful{" "}
               <em className="text-[#b68235] italic font-serif">websites.</em>
             </h1>

@@ -312,14 +312,33 @@ export default function StandalonePortfolio() {
               Founder · eCommerce &amp; B2B CRO Strategist
             </p>
             <h1 className="font-serif font-normal text-2xl sm:text-4xl lg:text-5xl leading-[1.12] sm:leading-[1.08] tracking-tight mb-4 sm:mb-5">
-              Building high-converting businesses
-              <br className="hidden sm:block" /> — not just beautiful{" "}
+              Building high & converting businesses
+              <br className="hidden sm:block" /> not just beautiful{" "}
               <em className="text-[#b68235] italic font-serif">websites.</em>
             </h1>
             <p className="text-sm sm:text-base leading-relaxed max-w-[540px] text-[#090909]/75 mb-5 sm:mb-6 font-light">
               Sania Gupta grows brands through strategy, UX and Conversion Rate
-              Optimization — as founder of Digital Kangaroos (B2B &amp;
-              corporate) and Cart Potato (Shopify &amp; D2C).
+              Optimization — as founder of{" "}
+              <a
+                href="https://digitalkangaroos.com"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#b68235] underline underline-offset-2 decoration-[#b68235]/40 hover:text-[#7a5217]"
+              >
+                Digital Kangaroos 
+              </a>{" "}
+                (B2B &amp; corporate)
+              and{" "}
+              <a
+                href="https://cartpotato.com"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#b68235] underline underline-offset-2 decoration-[#b68235]/40 hover:text-[#7a5217]"
+              >
+                Cart Potato 
+              </a>
+                (Shopify &amp; D2C)
+              .
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6 sm:mb-8 font-serif">
@@ -367,12 +386,11 @@ export default function StandalonePortfolio() {
 
           <div className="lg:col-span-5 relative max-w-[300px] sm:max-w-sm mx-auto lg:max-w-[400px] w-full">
             <div className="rounded-2xl overflow-hidden aspect-[4/5]  relative border border-[#f8f4f4]/10">
-              <Image
+              <img
                 src="/extracted_60ec7261-46fe-454a-aa51-5d355901dde5.webp"
                 alt="Headshot — Sania Gupta"
-                fill
-                className="object-cover object-top"
-                priority
+                className="absolute inset-0 w-full h-full object-cover object-top"
+                fetchPriority="high"
               />
             </div>
             <div className="text-center mt-3 sm:mt-4">
@@ -413,7 +431,7 @@ export default function StandalonePortfolio() {
             <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-[#201f1d]/75 mb-4 sm:mb-5 font-light">
               That gap became her specialty. She built Digital Kangaroos to
               bring Conversion Rate Optimization into B2B and corporate web
-              design — a space that still treats CRO as an afterthought — and
+              design — a space that still treats CRO as an afterthought and
               later founded Cart Potato to apply the same discipline to Shopify
               and D2C, where buying psychology plays by entirely different
               rules.

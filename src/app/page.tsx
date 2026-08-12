@@ -312,13 +312,13 @@ export default function StandalonePortfolio() {
               Founder · eCommerce &amp; B2B CRO Strategist
             </p>
             <h1 className="font-serif font-normal text-2xl sm:text-4xl lg:text-5xl leading-[1.12] sm:leading-[1.08] tracking-tight mb-4 sm:mb-5">
-              Building high & converting businesses
-              <br className="hidden sm:block" /> not just beautiful{" "}
+              Building high - converting businesses
+              <br className="hidden sm:block" /> & not just beautiful{" "}
               <em className="text-[#b68235] italic font-serif">websites.</em>
             </h1>
             <p className="text-sm sm:text-base leading-relaxed max-w-[540px] text-[#090909]/75 mb-5 sm:mb-6 font-light">
               Sania Gupta grows brands through strategy, UX and Conversion Rate
-              Optimization — as founder of{" "}
+              Optimization  as founder of{" "}
               <a
                 href="https://digitalkangaroos.com"
                 target="_blank"
@@ -335,9 +335,10 @@ export default function StandalonePortfolio() {
                 rel="noreferrer"
                 className="text-[#b68235] underline underline-offset-2 decoration-[#b68235]/40 hover:text-[#7a5217]"
               >
-                Cart Potato 
+                Cart Potato  
               </a>
-                (Shopify &amp; D2C)
+              {" "}
+                 (Shopify &amp; D2C)
               .
             </p>
 

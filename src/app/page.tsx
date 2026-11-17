@@ -318,28 +318,25 @@ export default function StandalonePortfolio() {
             </h1>
             <p className="text-sm sm:text-base leading-relaxed max-w-[540px] text-[#090909]/75 mb-5 sm:mb-6 font-light">
               Sania Gupta grows brands through strategy, UX and Conversion Rate
-              Optimization  as founder of{" "}
+              Optimization as founder of{" "}
               <a
                 href="https://digitalkangaroos.com"
                 target="_blank"
                 rel="noreferrer"
                 className="text-[#b68235] underline underline-offset-2 decoration-[#b68235]/40 hover:text-[#7a5217]"
               >
-                Digital Kangaroos 
+                Digital Kangaroos
               </a>{" "}
-                (B2B &amp; corporate)
-              and{" "}
+              (B2B &amp; corporate) and{" "}
               <a
                 href="https://cartpotato.com"
                 target="_blank"
                 rel="noreferrer"
                 className="text-[#b68235] underline underline-offset-2 decoration-[#b68235]/40 hover:text-[#7a5217]"
               >
-                Cart Potato  
-              </a>
-              {" "}
-                 (Shopify &amp; D2C)
-              .
+                Cart Potato
+              </a>{" "}
+              (Shopify &amp; D2C) .
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6 sm:mb-8 font-serif">
@@ -502,7 +499,8 @@ export default function StandalonePortfolio() {
             Case studies
           </h6>
           <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-[#201f1d]/75 mb-8 sm:mb-10 font-light">
-            A selection of the businesses Digital Kangaroos and Cart Potato have worked with spanning healthcare, industrial and D2C.
+            A selection of the businesses Digital Kangaroos and Cart Potato have
+            worked with spanning healthcare, industrial and D2C.
           </p>
 
           {/* Brands Grid */}
@@ -636,6 +634,9 @@ export default function StandalonePortfolio() {
               </h3>
               <ul className="space-y-3 sm:space-y-4 font-light">
                 {[
+                  "The D2C Revenue Leakage Framework: Finding Growth Beyond Paid Advertising",
+                  "From Traffic to Transactions: A Practical CRO Playbook",
+                  "Live Website Teardowns: Identifying Conversion Barriers in Real Businesses",
                   "The psychology behind high-converting Shopify stores",
                   "Why most D2C websites don't convert",
                   "Scaling Shopify and B2B brands profitably",
@@ -658,6 +659,11 @@ export default function StandalonePortfolio() {
               </h3>
               <div className="flex flex-wrap gap-2 sm:gap-3 mb-6 sm:mb-8">
                 {[
+                  "Business schools and management institutes",
+                  "Entrepreneurship and incubation programmes",
+                  "Executive education programmes",
+                  "D2C founder communities and accelerator cohorts",
+                  "Guest lectures and industry masterclasses",
                   "eCommerce & D2C summits",
                   "B2B growth conferences",
                   "Founder & entrepreneurship events",
@@ -678,6 +684,24 @@ export default function StandalonePortfolio() {
                 Send a speaking inquiry
               </a>
             </div>
+          </div>
+        </section>
+
+        {/* Speaking Engagements Section */}
+        <section className="py-10 sm:py-12 lg:py-16 border-b border-[#201f1d]/10">
+          <h6 className="text-sm sm:text-base tracking-[0.1em] uppercase text-[#201f1d]/80 mb-6 sm:mb-10 font-bold">
+            Speaking Engagements
+          </h6>
+          <div className="font-serif text-xl sm:text-2xl lg:text-3xl leading-snug text-[#201f1d] space-y-6">
+            <p>
+              Keynote Speaker — Ludhiana Management Association (LMA)
+            </p>
+            <p>
+              Sania Gupta was invited as a keynote speaker by the Ludhiana Management Association and All India Management Association for an interactive seminar on Artificial Intelligence and the Applications of ChatGPT, held on 19 September 2023 at Hotel Park Plaza, Ludhiana.
+            </p>
+            <p>
+              The session explored the practical applications of AI and ChatGPT in business, management and everyday professional workflows, bringing industry perspectives to a management-focused audience.
+            </p>
           </div>
         </section>
 

@@ -356,7 +356,7 @@ export default function StandalonePortfolio() {
 
             <div className="grid grid-cols-3 gap-4 sm:gap-8 pt-4 border-t border-[#f8f4f4]/10 lg:border-none lg:pt-0">
               <div>
-                <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#b68235] m-0 tabular-nums">
+                <p className="font-serif font-semibold text-xl sm:text-3xl lg:text-3xl text-[#b68235] m-0 tabular-nums">
                   10+
                 </p>
                 <p className="text-[11px] sm:text-base text-[##090909]/65 mt-1">
@@ -364,15 +364,15 @@ export default function StandalonePortfolio() {
                 </p>
               </div>
               <div>
-                <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#b68235] m-0 tabular-nums">
-                  200+
+                <p className="font-serif font-semibold text-xl sm:text-3xl lg:text-3xl text-[#b68235] m-0 tabular-nums">
+                  500+
                 </p>
                 <p className="text-[11px] sm:text-base text-[##090909]/65 mt-1">
                   Websites delivered
                 </p>
               </div>
               <div>
-                <p className="font-serif font-semibold text-xl sm:text-2xl lg:text-3xl text-[#b68235] m-0 tabular-nums">
+                <p className="font-serif font-semibold text-xl sm:text-3xl lg:text-3xl text-[#b68235] m-0 tabular-nums">
                   2
                 </p>
                 <p className="text-[11px] sm:text-base text-[##090909]/65 mt-1">
@@ -548,13 +548,13 @@ export default function StandalonePortfolio() {
                 <button
                   key={brand.id}
                   onClick={() => setActiveCaseStudy(brand.id)}
-                  className={`h-16 sm:h-20 flex items-center justify-center p-3 rounded-lg border transition-all duration-300 relative group cursor-pointer ${
+                  className={`h-46 sm:h-40 flex items-center justify-center p-3 rounded-lg border transition-all duration-300 relative group cursor-pointer ${
                     isActive
                       ? "border-[#b68235] bg-white shadow-md ring-2 ring-[#b68235]/20"
-                      : "border-[#201f1d]/10 bg-white/40 hover:border-[#b68235]/40 hover:bg-white/70"
+                      : "border-[#201f1d]/10 bg-white/40"
                   }`}
                 >
-                  <div className="relative w-full h-10 sm:h-12">
+                  <div className="relative w-full h-10 sm:h-20">
                     <Image
                       src={brand.src}
                       alt={brand.name}
@@ -562,7 +562,7 @@ export default function StandalonePortfolio() {
                       className={`object-contain transition-all duration-300 ${
                         isActive
                           ? "grayscale-0 scale-105"
-                          : "grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100"
+                          : ""
                       }`}
                     />
                   </div>

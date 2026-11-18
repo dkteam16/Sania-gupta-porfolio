@@ -385,7 +385,7 @@ export default function StandalonePortfolio() {
           <div className="lg:col-span-5 relative max-w-[300px] sm:max-w-sm mx-auto lg:max-w-[400px] w-full">
             <div className="rounded-2xl overflow-hidden aspect-[4/5]  relative border border-[#f8f4f4]/10">
               <img
-                src="/extracted_60ec7261-46fe-454a-aa51-5d355901dde5.webp"
+                src="/Polished Corporate Portrait with Soft Bokeh.png"
                 alt="Headshot — Sania Gupta"
                 className="absolute inset-0 w-full h-full object-cover object-top"
                 fetchPriority="high"
@@ -413,7 +413,7 @@ export default function StandalonePortfolio() {
           id="about"
           className="py-10 sm:py-12 lg:py-16 grid grid-cols-1 md:grid-cols-[180px_1fr] lg:grid-cols-[220px_1fr] gap-6 sm:gap-12 lg:gap-16 border-b border-[#201f1d]/10"
         >
-          <h6 className="text-sm sm:text-base tracking-[0.1em] uppercase text-[#201f1d]/80 m-0 font-bold">
+          <h6 className="text-base sm:text-lg tracking-[0.1em] uppercase text-[#201f1d]/80 m-0 font-bold">
             About
           </h6>
           <div className="max-w-[680px]">
@@ -445,7 +445,7 @@ export default function StandalonePortfolio() {
 
         {/* Point of View Section */}
         <section className="py-10 sm:py-12 lg:py-16 border-b border-[#201f1d]/10">
-          <h6 className="text-sm sm:text-base tracking-[0.1em] uppercase text-[#201f1d]/80 mb-8 sm:mb-10 font-bold">
+          <h6 className="text-base sm:text-lg tracking-[0.1em] uppercase text-[#201f1d]/80 mb-8 sm:mb-10 font-bold">
             Point of view
           </h6>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
@@ -456,7 +456,7 @@ export default function StandalonePortfolio() {
               <h4 className="font-serif text-lg sm:text-xl font-semibold mb-2 text-[#201f1d]">
                 Design is a conversion lever
               </h4>
-              <p className="text-xs sm:text-sm leading-relaxed text-[#201f1d]/75 font-light">
+              <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-[#201f1d]/75 font-light">
                 Every layout choice is tested against one question: does this
                 move a visitor closer to a decision?
               </p>
@@ -469,7 +469,7 @@ export default function StandalonePortfolio() {
               <h4 className="font-serif text-lg sm:text-xl font-semibold mb-2 text-[#201f1d]">
                 B2B and D2C need different playbooks
               </h4>
-              <p className="text-xs sm:text-sm leading-relaxed text-[#201f1d]/75 font-light">
+              <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-[#201f1d]/75 font-light">
                 Running both a corporate and a D2C agency is deliberate — the
                 buying psychology, and the fixes, differ completely.
               </p>
@@ -482,7 +482,7 @@ export default function StandalonePortfolio() {
               <h4 className="font-serif text-lg sm:text-xl font-semibold mb-2 text-[#201f1d]">
                 CRO is a discipline, not an afterthought
               </h4>
-              <p className="text-xs sm:text-sm leading-relaxed text-[#201f1d]/75 font-light">
+              <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-[#201f1d]/75 font-light">
                 Optimization built into the first draft, not a plugin added
                 post-launch.
               </p>
@@ -495,7 +495,7 @@ export default function StandalonePortfolio() {
           id="clients"
           className="py-10 sm:py-12 lg:py-16 border-b border-[#201f1d]/10"
         >
-          <h6 className="text-sm sm:text-base tracking-[0.1em] uppercase text-[#201f1d]/80 mb-2 font-bold">
+          <h6 className="text-base sm:text-lg tracking-[0.1em] uppercase text-[#201f1d]/80 mb-2 font-bold">
             Case studies
           </h6>
           <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-[#201f1d]/75 mb-8 sm:mb-10 font-light">
@@ -624,7 +624,7 @@ export default function StandalonePortfolio() {
           id="speaking"
           className="py-10 sm:py-12 lg:py-16 border-b border-[#201f1d]/10"
         >
-          <h6 className="text-sm sm:text-base tracking-[0.1em] uppercase text-[#201f1d]/80 mb-8 sm:mb-10 font-bold">
+          <h6 className="text-base sm:text-lg tracking-[0.1em] uppercase text-[#201f1d]/80 mb-8 sm:mb-10 font-bold">
             Speaking &amp; media
           </h6>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-12 lg:gap-16">
@@ -689,25 +689,46 @@ export default function StandalonePortfolio() {
 
         {/* Speaking Engagements Section */}
         <section className="py-10 sm:py-12 lg:py-16 border-b border-[#201f1d]/10">
-          <h6 className="text-sm sm:text-base tracking-[0.1em] uppercase text-[#201f1d]/80 mb-6 sm:mb-10 font-bold">
+          <h6 className="text-base sm:text-lg tracking-[0.1em] uppercase text-[#201f1d]/80 mb-6 sm:mb-10 font-bold">
             Speaking Engagements
           </h6>
-          <div className="font-serif text-xl sm:text-2xl lg:text-3xl leading-snug text-[#201f1d] space-y-6">
-            <p>
-              Keynote Speaker — Ludhiana Management Association (LMA)
-            </p>
-            <p>
-              Sania Gupta was invited as a keynote speaker by the Ludhiana Management Association and All India Management Association for an interactive seminar on Artificial Intelligence and the Applications of ChatGPT, held on 19 September 2023 at Hotel Park Plaza, Ludhiana.
-            </p>
-            <p>
-              The session explored the practical applications of AI and ChatGPT in business, management and everyday professional workflows, bringing industry perspectives to a management-focused audience.
-            </p>
+          {/* Speaking Engagements Logos Grid */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
+            {[
+              {
+                name: "FICCI FLO",
+                src: "/assets/Speaking%20Engagements%20logos/image 21.png",
+                size: "w-40 h-40",
+              },
+              {
+                name: "Ludhiana Management Association",
+                src: "/assets/Speaking%20Engagements%20logos/image 22.png",
+              },
+              {
+                name: "PCTE Ludhiana",
+                src: "/assets/Speaking%20Engagements%20logos/logo 1.png",
+              },
+            ].map((org) => (
+              <div
+                key={org.name}
+                className="h-44 sm:h-52 w-full flex items-center justify-center p-4 sm:p-6 rounded-lg border border-[#201f1d]/10 bg-white hover:border-[#b68235]/40 hover:bg-white/70 transition-all duration-300"
+              >
+                <div className={`relative ${org.size || "w-50 h-50"}`}>
+                  <Image
+                    src={org.src}
+                    alt={org.name}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+            ))}
           </div>
         </section>
 
         {/* Work With Me Section */}
         <section className="py-10 sm:py-12 lg:py-16 border-b border-[#201f1d]/10">
-          <h6 className="text-sm sm:text-base tracking-[0.1em] uppercase text-[#201f1d]/80 mb-6 sm:mb-10 font-bold">
+          <h6 className="text-base sm:text-lg tracking-[0.1em] uppercase text-[#201f1d]/80 mb-6 sm:mb-10 font-bold">
             Work with me
           </h6>
           <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-8 sm:gap-12 items-start">
@@ -737,7 +758,7 @@ export default function StandalonePortfolio() {
 
         {/* FAQ Section */}
         <section className="py-10 sm:py-12 lg:py-16 grid grid-cols-1 md:grid-cols-[180px_1fr] lg:grid-cols-[220px_1fr] gap-6 sm:gap-12">
-          <h6 className="text-sm sm:text-base tracking-[0.1em] uppercase text-[#201f1d]/80 m-0 font-bold">
+          <h6 className="text-base sm:text-lg tracking-[0.1em] uppercase text-[#201f1d]/80 m-0 font-bold">
             FAQ
           </h6>
           <div className="max-w-[700px] divide-y divide-[#201f1d]/10 border-y border-[#201f1d]/10">
